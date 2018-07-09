@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    
+    <string-array name="labelTextSize">
+        <item name="tiny">Tiny</item>
+        <item name="small">Small</item>
+        <item name="medium">Medium</item>
+        <item name="medium_plus">Medium+</item>
+        <item name="large">Large</item>
+        <item name="huge">Huge</item>
+    </string-array>
+    
+    <string-array name="labelTextSizeValues">
+        <item name="tiny">8</item>
+        <item name="small">10</item>
+        <item name="medium">11</item>
+        <item name="medium_plus">12</item>
+        <item name="large">14</item>
+        <item name="huge">18</item>
+    </string-array>
+
+    <string-array name="labelPoiNum">
+        <item>Auto</item>
+        <item>2 (top of screen)</item>
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="labelPoiNumValues">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="labelBackMapType">
+        <item>None</item>
+        <item>OSM Tiles</item>
+        <item>OSM Cyclemap Tiles</item>
+        <item>Internal Vector (experimental)</item>
+        </string-array>
+
+    <string-array name="labelBackMapTypeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        </string-array>
+
+    <string-array name="labelAutoload">
+        <item>Manual</item>
+        <item>Automatic/Small</item>
+        <item>Automatic/Large</item>
+        </string-array>
+
+    <string-array name="labelAutoloadValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        </string-array>
+</resources>

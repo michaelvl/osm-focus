@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference
+        android:key="pref_autoload"
+        android:title="@string/pref_autoload"
+        android:summary="@string/pref_autoload_summ"
+        android:defaultValue="2"
+        android:entries="@array/labelAutoload"
+        android:entryValues="@array/labelAutoloadValues" />
+    <!-- <CheckBoxPreference
+        android:key="pref_wireframe"
+        android:title="@string/pref_wireframe"
+        android:defaultValue="false" /> -->
+    <ListPreference
+        android:key="pref_poinum"
+        android:title="@string/pref_poinum"
+        android:summary="@string/pref_poinum_summ"
+        android:defaultValue="0"
+        android:entries="@array/labelPoiNum"
+        android:entryValues="@array/labelPoiNumValues" />
+    <CheckBoxPreference
+        android:key="pref_poilines"
+        android:title="@string/pref_poilines"
+        android:defaultValue="true" />
+    <ListPreference
+        android:key="pref_labelsize"
+        android:title="@string/pref_labelsize"
+        android:summary="@string/pref_labelsize_summ"
+        android:defaultValue="11"
+        android:entries="@array/labelTextSize"
+        android:entryValues="@array/labelTextSizeValues" />
+    <ListPreference
+        android:key="pref_backmaptype"
+        android:title="@string/pref_backmap"
+        android:summary="@string/pref_backmap_summ"
+        android:defaultValue="2"
+        android:entries="@array/labelBackMapType"
+        android:entryValues="@array/labelBackMapTypeValues" />
+</PreferenceScreen>

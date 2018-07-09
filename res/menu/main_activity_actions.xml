@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_whereami"
+          android:title="@string/action_whereami"
+          android:icon="@drawable/ic_action_location_found"
+          android:showAsAction="always" />
+    <item android:id="@+id/action_download"
+          android:title="@string/action_download"
+          android:icon="@drawable/ic_downloadosm"
+          android:showAsAction="never" />
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          android:showAsAction="never" />
+
+</menu>

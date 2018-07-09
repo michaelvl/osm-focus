@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OSMfocus</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_download">Download</string>
+    <string name="action_testdownload">TestDownload</string>
+    <string name="action_whereami">Where am I?</string>
+    <string name="action_togglehud">Toggle debug HUD</string>
+    <string name="action_loadcache">Load From Cache</string>
+
+    <string name="info_nodataloaded">No map data loaded.</string>
+    <string name="info_pressandhold">Press and hold to open menu.</string>
+    <string name="info_enabled">Enabled</string>
+    <string name="info_disabled">Disabled</string>
+    <string name="info_locationunknown">Waiting for location</string>
+    <string name="info_locationoutside">Location outside downloaded area</string>
+    <string name="info_downloading">Downloading area</string>
+    <string name="info_errdownloadarea">Could not download area!</string>
+    <string name="info_notshowpoiatzoomlevel">POIs not shown at high zoom levels</string>
+    <string name="info_notshowvectoratzoomlevel">Vector data not shown at high zoom levels</string>
+    
+    <string name="pref_autoload">Auto Download</string>
+    <string name="pref_autoload_summ">Enable automatic download of map data</string>
+    
+    <string name="pref_wireframe">Wireframe Map</string>
+    <string name="pref_poilines">Show POI lines</string>
+    
+    <string name="pref_poinum">Number of POIs on screen</string>
+    <string name="pref_poinum_summ">Number of POIs on screen</string>
+    
+    <string name="pref_labelsize">POI Label Size</string>
+    <string name="pref_labelsize_summ">Size of font used for element labels</string>
+
+    <string name="pref_backmap">Background Map Type</string>
+    <string name="pref_backmap_summ">Type of background map to show</string>
+    
+    <string name="info_osm_copyright">&#169; OpenStreetMap contributors</string>
+</resources>
