@@ -19,7 +19,7 @@ public class OsmServer {
     static private final int SERVER_CONNECT_TIMEOUT_MS = 30*1000;
     static private final int API_TIMEOUT_MS = 10*1000;
     static final int API_MAX_DOWNLOAD_DEGREES = (int) 1E7/4;
-    static private final String DEFAULT_API_URL = "http://api.openstreetmap.org/api/"+API_VERSION+"/";
+    static private final String DEFAULT_API_URL = "https://api.openstreetmap.org/api/"+API_VERSION+"/";
 
     private final String mApiUrl;
     private final String mAgent;
